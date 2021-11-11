@@ -34,3 +34,4 @@ Build the model
 
 Now build a deep neural network that has 3 layers. We use the Keras sequential API for this. After training the model for 200 epochs, we achieved 100% accuracy on our model. Save the model as ‘chatbot_model.h5’.
 
+Then tkinter is used to create GUI.

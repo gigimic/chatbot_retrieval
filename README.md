@@ -1,6 +1,20 @@
 # Chatbot
 ----------------
 
+There are two types of chatbots.
+1. retrieval based models
+2. generative nodels
+
+Retrieval based chatbots use pre-defined input patterns and responses. 
+
+Generative models are not based on some predefined responses.
+They are based on seq 2 seq neural networks. It is the same idea as machine translation. 
+In machine translation, we translate the source code from one language to another language 
+but here, input is transformed to an output. It needs a large amount of data and 
+it is based on Deep Neural networks.
+
+Here we make a retrieval based chatbot.
+
 This chatbot will be trained on the dataset which contains categories (intents), pattern and responses. Recurrent neural network (LSTM) is used to classify the user’s message to the category it belongs to and then a response will be selected.
 
 The dataset is ‘intents.json’. This is a JSON file that contains the patterns we need to find and the responses we want to return to the user.

@@ -17,7 +17,6 @@ ignore_words = ['?', '!']
 data_file = open('intents.json').read()
 intents = json.loads(data_file)
 
-
 for intent in intents['intents']:
     for pattern in intent['patterns']:
 
@@ -46,7 +45,6 @@ print(documents[3])
 print (len(classes), "classes", classes)
 # words = all words, vocabulary
 print (len(words), "unique lemmatized words", words)
-
 
 pickle.dump(words,open('words.pkl','wb'))
 pickle.dump(classes,open('classes.pkl','wb'))

@@ -8,10 +8,10 @@ There are two types of chatbots.
 Retrieval based chatbots use pre-defined input patterns and responses. 
 
 Generative models are not based on some predefined responses.
-They are based on seq 2 seq neural networks. It is the same idea as machine translation. 
+They are based on seq 2 seq neural networks. It is the same idea as machine translation.
 In machine translation, we translate the source code from one language to another language 
-but here, input is transformed to an output. It needs a large amount of data and 
-it is based on Deep Neural networks.
+but here, input is transformed to an output or an answer is generated for a question.
+It needs a large amount of data and it is based on Deep Neural networks.
 
 Here we make a retrieval based chatbot.
 
@@ -28,7 +28,7 @@ create a pickle file to store the Python objects which we will use while predict
 
 Create training and testing data
 
-create the training data. input is the pattern and output is the class our input pattern belongs to. text is converted into numbers.
+Create the training data. Input is the pattern and output is the class our input pattern belongs to. text is converted into numbers (word embedding).
 
 Build the model
 
